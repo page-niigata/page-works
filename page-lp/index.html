@@ -1,0 +1,1742 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>地域事業者向けデジタル活用講師 page.｜AI・SNS・動画活用講座</title>
+  <meta name="description" content="地域事業者・商工会・自治体向けに、AI活用、SNS発信、ショート動画活用を実践につながる形で伝える講座・研修の相談ページです。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="地域事業者向けデジタル活用講師 page.">
+  <meta property="og:description" content="難しいデジタルを、地域の仕事で実践できる形に翻訳します。">
+  <meta property="og:image" content="images/photo-01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #F8F5F0;
+      --primary: #3B3028;
+      --secondary: #D9C8B5;
+      --accent: #B59A80;
+      --text: #2A2521;
+      --muted: #71665E;
+      --paper: #FFFDF9;
+      --line: rgba(59, 48, 40, 0.16);
+      --line-strong: rgba(59, 48, 40, 0.28);
+      --shadow: 0 24px 70px rgba(42, 37, 33, 0.10);
+      --sans: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+      --serif: "Shippori Mincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+      --container: min(1120px, calc(100% - 40px));
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      text-rendering: optimizeLegibility;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 15.5px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 2.05;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .workshop-image img,
+    .profile-photo img,
+    .gallery img {
+      filter: saturate(0.86) sepia(0.08) contrast(1.05) brightness(0.98);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    :focus-visible {
+      outline: 3px solid rgba(181, 154, 128, 0.7);
+      outline-offset: 4px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(59, 48, 40, 0.10);
+      background: rgba(248, 245, 240, 0.88);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: var(--container);
+      min-height: 64px;
+      margin: 0 auto;
+      gap: 18px;
+    }
+
+    .brand {
+      color: var(--primary);
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: none;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+    }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 16px;
+      border: 1px solid var(--primary);
+      border-radius: 999px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 12.5px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 0 22px;
+      border: 1px solid var(--primary);
+      border-radius: 999px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.35;
+      letter-spacing: 0.03em;
+      text-align: center;
+      transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--primary);
+    }
+
+    .section {
+      padding: 94px 0;
+    }
+
+    .section-inner {
+      width: var(--container);
+      margin: 0 auto;
+    }
+
+    .section-label {
+      margin: 0 0 26px;
+      color: var(--accent);
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      color: var(--primary);
+      font-family: var(--serif);
+      font-weight: 400;
+      line-height: 1.74;
+      letter-spacing: 0.055em;
+    }
+
+    h1 {
+      font-size: clamp(26px, 6.8vw, 43px);
+      font-weight: 400;
+      letter-spacing: 0.075em;
+      line-height: 1.64;
+    }
+
+    h2 {
+      font-size: clamp(20px, 4.7vw, 30px);
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: clamp(14.5px, 1.5vw, 15.5px);
+      font-weight: 400;
+      line-height: 2.12;
+    }
+
+    .hero {
+      padding: 60px 0 88px;
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .hero-layout {
+      display: grid;
+      gap: 58px;
+      width: var(--container);
+      margin: 0 auto;
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 0;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 30px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.13em;
+    }
+
+    .hero-kicker::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    .hero-subtitle {
+      margin-top: 44px;
+      color: var(--primary);
+      font-size: clamp(18px, 4.6vw, 25px);
+      font-family: var(--serif);
+      font-weight: 400;
+      letter-spacing: 0.065em;
+      line-height: 1.96;
+    }
+
+    .hero-lead {
+      max-width: 640px;
+      margin-top: 36px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 42px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 28px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 253, 249, 0.7);
+      color: var(--primary);
+      font-size: 11.5px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+    }
+
+    .workshop-image::after,
+    .profile-photo::after,
+    .gallery figure::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(248, 245, 240, 0.10), rgba(59, 48, 40, 0.12)),
+        rgba(181, 154, 128, 0.08);
+      mix-blend-mode: multiply;
+      pointer-events: none;
+    }
+
+    .problem {
+      background: var(--paper);
+    }
+
+    .split-head {
+      display: grid;
+      gap: 68px;
+      margin-bottom: 74px;
+    }
+
+    .problem-list {
+      display: grid;
+      gap: 0;
+      border-top: 1px solid var(--line-strong);
+    }
+
+    .problem-list li {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 12px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+      list-style: none;
+      color: var(--primary);
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 2.08;
+    }
+
+    .problem-list span {
+      color: var(--accent);
+      font-family: var(--serif);
+      font-weight: 400;
+    }
+
+    .concept {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .concept-layout {
+      display: grid;
+      gap: 68px;
+      align-items: end;
+    }
+
+    .concept-statement {
+      padding: 44px 0 0;
+      border-top: 1px solid var(--primary);
+      font-family: var(--serif);
+      font-size: clamp(19px, 4.3vw, 28px);
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      line-height: 2;
+      color: var(--primary);
+    }
+
+    .workshop {
+      position: relative;
+      overflow: hidden;
+      padding: 118px 0 136px;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    .workshop::before {
+      display: none;
+    }
+
+    .workshop-inner {
+      position: relative;
+      display: grid;
+      gap: 108px;
+      width: var(--container);
+      margin: 0 auto;
+    }
+
+    .workshop-image {
+      position: relative;
+      width: min(104vw, 760px);
+      margin-left: auto;
+      overflow: hidden;
+      border-radius: 12px 0 0 12px;
+      background: transparent;
+      transform: translateX(52px);
+      box-shadow: 0 30px 82px rgba(42, 37, 33, 0.11);
+    }
+
+    .workshop-image img {
+      width: 100%;
+      aspect-ratio: 1.48 / 1;
+      height: auto;
+      object-fit: contain;
+      object-position: center;
+      transform: none;
+    }
+
+    .workshop-image::before {
+      display: none;
+    }
+
+    .workshop-image::after {
+      background:
+        linear-gradient(180deg, rgba(248, 245, 240, 0.08), rgba(59, 48, 40, 0.10)),
+        rgba(181, 154, 128, 0.08);
+      mix-blend-mode: multiply;
+    }
+
+    .workshop-caption {
+      position: relative;
+      z-index: 1;
+      max-width: 430px;
+    }
+
+    .workshop-caption h2 {
+      color: var(--primary);
+      font-size: clamp(17px, 3.8vw, 24px);
+      line-height: 1.86;
+    }
+
+    .workshop-caption > p:not(.section-label) {
+      max-width: 360px;
+      margin-top: 64px;
+      color: var(--muted);
+      font-size: clamp(13.5px, 1.25vw, 14px);
+      line-height: 2.22;
+    }
+
+    .services {
+      background: var(--paper);
+    }
+
+    .service-list {
+      display: grid;
+      gap: 0;
+      margin-top: 76px;
+      border-top: 1px solid var(--line-strong);
+    }
+
+    .service-item {
+      display: grid;
+      gap: 18px;
+      padding: 38px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .service-item small {
+      color: var(--accent);
+      font-family: var(--serif);
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+    }
+
+    .service-item p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 2.08;
+    }
+
+    .results-layout {
+      display: grid;
+      gap: 56px;
+    }
+
+    .stats-grid {
+      display: flex;
+      gap: 14px;
+      width: 100%;
+      margin: 0;
+      padding: 0 0 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: max(20px, calc((100vw - 1120px) / 2));
+      background: transparent;
+      border: 0;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(59, 48, 40, 0.28) transparent;
+    }
+
+    .stat {
+      flex: 0 0 min(72vw, 238px);
+      min-height: 144px;
+      padding: 28px 22px;
+      scroll-snap-align: start;
+      border: 1px solid rgba(59, 48, 40, 0.12);
+      background: rgba(255, 253, 249, 0.68);
+      box-shadow: 0 18px 42px rgba(42, 37, 33, 0.055);
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--primary);
+      font-family: var(--serif);
+      font-size: clamp(25px, 5.8vw, 36px);
+      font-weight: 400;
+      line-height: 1.32;
+      letter-spacing: 0.06em;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 12.5px;
+      font-weight: 400;
+      line-height: 1.9;
+    }
+
+    .note {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 11.5px;
+      font-weight: 400;
+    }
+
+    .voice {
+      background: var(--paper);
+    }
+
+    .voice-box {
+      display: grid;
+      gap: 40px;
+      margin-top: 72px;
+      padding: 48px;
+      border: 1px solid var(--line);
+      background: var(--background);
+    }
+
+    .voice-box h3 {
+      font-size: 18px;
+    }
+
+    .voice-box p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 2.08;
+    }
+
+    .profile-layout {
+      position: relative;
+      display: grid;
+      gap: 104px;
+      align-items: center;
+    }
+
+    .profile,
+    .gallery-section {
+      overflow: hidden;
+    }
+
+    .profile-layout::before {
+      display: none;
+    }
+
+    .profile-photo {
+      position: relative;
+      width: min(92%, 560px);
+      margin-left: auto;
+      aspect-ratio: 1.42 / 1;
+      overflow: hidden;
+      border-radius: 0 12px 12px 0;
+      background: transparent;
+      transform: translateX(30px);
+      box-shadow: 0 26px 72px rgba(42, 37, 33, 0.10);
+    }
+
+    .profile-photo img {
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      transform: none;
+    }
+
+    .profile-text {
+      display: grid;
+      gap: 88px;
+    }
+
+    .profile h2,
+    .gallery-section h2 {
+      font-size: clamp(17px, 3.8vw, 24px);
+      line-height: 1.86;
+    }
+
+    .profile .lead,
+    .gallery-section .lead {
+      max-width: 340px;
+      font-size: clamp(13.5px, 1.25vw, 14px);
+      line-height: 2.22;
+    }
+
+    .profile-points {
+      display: grid;
+      gap: 18px;
+      padding: 0;
+      margin: 6px 0 0;
+      color: var(--primary);
+      font-size: 13.5px;
+      font-weight: 400;
+      line-height: 2.12;
+    }
+
+    .profile-points li {
+      list-style: none;
+      padding-left: 18px;
+      border-left: 2px solid var(--accent);
+    }
+
+    .gallery {
+      position: relative;
+      display: grid;
+      gap: 0;
+      margin-top: 86px;
+    }
+
+    .gallery-section .section-inner {
+      display: grid;
+      gap: 132px;
+    }
+
+    .gallery-section .split-head {
+      margin-bottom: 0;
+    }
+
+    .gallery figure {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 0 12px 12px 0;
+      background: transparent;
+      box-shadow: 0 26px 72px rgba(42, 37, 33, 0.10);
+    }
+
+    .gallery figure:nth-child(1) {
+      z-index: 1;
+      width: min(92%, 700px);
+      margin-left: -22px;
+      aspect-ratio: 1.64 / 1;
+    }
+
+    .gallery figure:nth-child(2) {
+      z-index: 2;
+      width: min(54%, 360px);
+      margin: -58px 0 0 auto;
+      border-radius: 12px 0 0 12px;
+      aspect-ratio: 1.18 / 1;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .gallery figure:nth-child(1) img {
+      object-position: center;
+      transform: none;
+    }
+
+    .gallery figure:nth-child(2) img {
+      object-position: center;
+      transform: none;
+    }
+
+    .final-cta {
+      padding: 96px 0 22px;
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .final-cta h2 {
+      color: #fff;
+    }
+
+    .final-cta .lead {
+      margin-top: 50px;
+      color: rgba(255, 255, 255, 0.76);
+    }
+
+    .final-cta .button {
+      margin-top: 50px;
+      border-color: #fff;
+      background: #fff;
+      color: var(--primary);
+    }
+
+    .contact-panel {
+      display: grid;
+      gap: 44px;
+      margin-top: 44px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact-links .button.secondary {
+      border-color: rgba(255, 255, 255, 0.55);
+      color: #fff;
+    }
+
+    footer {
+      padding: 36px 0 24px;
+      background: var(--primary);
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 11.5px;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: var(--container);
+      margin: 0 auto;
+    }
+
+    .footer-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.72);
+      text-decoration: none;
+      transition: color 0.18s ease;
+    }
+
+    .footer-icon-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .footer-links svg {
+      width: 15px;
+      height: 15px;
+      fill: currentColor;
+      overflow: visible;
+    }
+
+    .footer-links .threads-icon {
+      width: 16px;
+      height: 16px;
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .fade-up.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (min-width: 640px) {
+      .hero-actions,
+      .contact-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .gallery figure:nth-child(1) {
+        width: min(78%, 620px);
+        margin-right: 4%;
+      }
+
+      .gallery figure:nth-child(2) {
+        width: min(42%, 340px);
+        margin-top: -118px;
+        margin-left: 10%;
+      }
+    }
+
+    @media (min-width: 760px) {
+      .nav-links {
+        display: flex;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .hero {
+        padding: 96px 0 132px;
+      }
+
+      .hero-layout {
+        grid-template-columns: minmax(0, 760px);
+        align-items: center;
+        gap: 0;
+      }
+
+      .workshop {
+        padding: 142px 0 158px;
+      }
+
+      .workshop-inner {
+        grid-template-columns: minmax(0, 0.76fr) minmax(360px, 1.24fr);
+        align-items: center;
+        gap: 152px;
+      }
+
+      .workshop-caption {
+        align-self: start;
+        padding-top: 32px;
+      }
+
+      .workshop-image {
+        width: min(64vw, 760px);
+        transform: translateX(13vw);
+      }
+
+      .workshop-image img {
+        aspect-ratio: 1.66 / 1;
+      }
+
+      .split-head,
+      .concept-layout,
+      .results-layout,
+      .profile-layout,
+      .contact-panel {
+        grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+        gap: 92px;
+      }
+
+      .gallery-section .section-inner {
+        grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+        align-items: start;
+        gap: 98px;
+      }
+
+      .gallery-section .split-head {
+        grid-template-columns: 1fr;
+        gap: 64px;
+        margin-bottom: 0;
+        padding-top: 28px;
+      }
+
+      .gallery-section .gallery {
+        margin-top: 0;
+      }
+
+      .service-item {
+        grid-template-columns: 90px minmax(0, 0.9fr) minmax(0, 1fr);
+        align-items: baseline;
+        gap: 48px;
+      }
+
+      .stats-grid {
+        gap: 16px;
+        overflow-x: auto;
+      }
+
+      .stat {
+        flex: 1 0 176px;
+        min-height: 172px;
+        padding: 32px 24px;
+      }
+
+      .voice-box {
+        grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+        padding: 64px;
+      }
+
+      .footer-inner {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    @media (min-width: 1040px) {
+      .section {
+        padding: 132px 0;
+      }
+
+      .hero-copy {
+        padding-right: 0;
+      }
+
+      .workshop {
+        padding: 164px 0 186px;
+      }
+
+      .workshop-inner {
+        gap: 172px;
+      }
+
+      .workshop-image {
+        width: min(62vw, 840px);
+        transform: translateX(16vw);
+      }
+
+      .profile-photo {
+        aspect-ratio: 1.54 / 1;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        min-height: 600px;
+        align-items: start;
+      }
+
+      .gallery figure:nth-child(1) {
+        grid-column: 1 / 10;
+        width: 100%;
+        margin: 92px 0 0;
+      }
+
+      .gallery figure:nth-child(2) {
+        grid-column: 8 / 13;
+        width: 100%;
+        margin: 0;
+        transform: translateX(38px);
+      }
+    }
+
+    .workshop-image,
+    .profile-photo,
+    .gallery figure {
+      position: relative;
+      width: min(100%, 920px);
+      margin: 0 auto;
+      aspect-ratio: auto;
+      overflow: hidden;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background: transparent;
+      transform: none;
+    }
+
+    .workshop-image,
+    .profile-photo,
+    .gallery figure {
+      aspect-ratio: 4 / 5;
+    }
+
+    .workshop-image img,
+    .profile-photo img,
+    .gallery img,
+    .gallery figure:nth-child(1) img,
+    .gallery figure:nth-child(2) img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: auto;
+      object-fit: contain;
+      object-position: center;
+      transform: none;
+    }
+
+    .workshop-image img,
+    .profile-photo img,
+    .gallery img,
+    .gallery figure:nth-child(1) img,
+    .gallery figure:nth-child(2) img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .workshop-image img {
+      object-position: center 76%;
+    }
+
+    .profile-photo img {
+      object-position: center 56%;
+    }
+
+    .workshop-secondary .workshop-image img {
+      object-position: center 54%;
+    }
+
+    .gallery figure:nth-child(1) img {
+      object-position: center 58%;
+    }
+
+    .gallery figure:nth-child(2) img {
+      object-position: center 58%;
+    }
+
+    .workshop-image::after,
+    .profile-photo::after,
+    .gallery figure::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background:
+        linear-gradient(180deg, rgba(31, 24, 19, 0.14), rgba(31, 24, 19, 0.34) 48%, rgba(31, 24, 19, 0.64)),
+        rgba(59, 48, 40, 0.10);
+      mix-blend-mode: normal;
+      pointer-events: none;
+    }
+
+    .photo-overlay {
+      position: absolute;
+      left: clamp(28px, 6vw, 76px);
+      right: clamp(24px, 6vw, 76px);
+      bottom: clamp(40px, 7vw, 96px);
+      z-index: 2;
+      max-width: 720px;
+      color: #fff;
+      text-shadow: 0 2px 20px rgba(31, 24, 19, 0.32);
+    }
+
+    .photo-overlay .section-label {
+      margin: 0 0 clamp(20px, 3vw, 34px);
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .photo-overlay h2 {
+      color: #fff;
+      font-size: clamp(25px, 6vw, 44px);
+      line-height: 1.58;
+      letter-spacing: 0.075em;
+    }
+
+    .workshop-line {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .photo-overlay p:not(.section-label) {
+      max-width: 680px;
+      margin-top: clamp(22px, 3.5vw, 42px);
+      color: rgba(255, 255, 255, 0.86);
+      font-size: clamp(14px, 1.8vw, 16px);
+      font-weight: 400;
+      line-height: 2.08;
+    }
+
+    .photo-overlay-small {
+      left: clamp(20px, 4vw, 38px);
+      right: clamp(20px, 4vw, 38px);
+      bottom: clamp(22px, 4vw, 38px);
+      max-width: 320px;
+    }
+
+    .photo-overlay-small .section-label {
+      margin-bottom: 12px;
+    }
+
+    .photo-overlay-small p:not(.section-label) {
+      margin-top: 0;
+      font-size: 13px;
+      line-height: 1.9;
+    }
+
+    .workshop,
+    .profile,
+    .gallery-section {
+      padding: clamp(70px, 9vw, 132px) 0;
+      overflow: hidden;
+    }
+
+    .workshop + .workshop {
+      padding-top: 0;
+    }
+
+    .hero .workshop-image {
+      margin-top: 0;
+    }
+
+    .workshop-inner,
+    .profile-layout,
+    .gallery-section .section-inner {
+      display: block;
+      width: min(1040px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .profile-text,
+    .profile-points,
+    .gallery-section .split-head {
+      display: none;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(70px, 10vw, 120px);
+      min-height: 0;
+      margin-top: 0;
+    }
+
+    .gallery figure:nth-child(1),
+    .gallery figure:nth-child(2) {
+      grid-column: auto;
+      width: min(100%, 920px);
+      margin: 0 auto;
+      aspect-ratio: 4 / 5;
+      transform: none;
+    }
+
+    .results-layout {
+      display: block;
+    }
+
+    .results-layout > .fade-up:first-child {
+      max-width: 560px;
+    }
+
+    .results-layout > .fade-up + .fade-up {
+      margin-top: 36px;
+    }
+
+    .results .lead {
+      max-width: 560px;
+    }
+
+    .stats-grid {
+      display: flex;
+      grid-template-columns: none;
+      gap: 14px;
+      width: 100%;
+      padding: 0 0 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 0;
+      background: transparent;
+      border: 0;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .stat {
+      flex: 0 0 min(72vw, 238px);
+      min-height: 144px;
+      scroll-snap-align: start;
+      border: 1px solid rgba(59, 48, 40, 0.12);
+      background: rgba(255, 253, 249, 0.68);
+      box-shadow: 0 18px 42px rgba(42, 37, 33, 0.055);
+    }
+
+    .reels-section {
+      background: var(--paper);
+    }
+
+    .reels-head {
+      max-width: 560px;
+    }
+
+    .reels-head .lead {
+      margin-top: 36px;
+    }
+
+    .reel-carousel {
+      display: flex;
+      gap: 14px;
+      width: 100%;
+      margin-top: 40px;
+      padding: 0 0 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 0;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(59, 48, 40, 0.28) transparent;
+    }
+
+    .reel-card {
+      position: relative;
+      display: block;
+      flex: 0 0 min(48vw, 184px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      scroll-snap-align: start;
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid rgba(59, 48, 40, 0.12);
+      background: rgba(255, 253, 249, 0.74);
+      box-shadow: 0 18px 42px rgba(42, 37, 33, 0.055);
+      isolation: isolate;
+      cursor: pointer;
+      transition: opacity 0.18s ease;
+    }
+
+    .reel-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background: linear-gradient(180deg, rgba(42, 37, 33, 0.04) 32%, rgba(42, 37, 33, 0.62) 100%);
+      pointer-events: none;
+    }
+
+    .reel-card img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.9) sepia(0.04) contrast(1.03) brightness(0.98);
+      transition: transform 0.24s ease;
+    }
+
+    .reel-card:hover img {
+      transform: scale(1.025);
+    }
+
+    .reel-card:hover {
+      opacity: 0.92;
+    }
+
+    .reel-count {
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      z-index: 1;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.5;
+      color: #fff;
+      text-shadow: 0 1px 14px rgba(42, 37, 33, 0.38);
+    }
+
+    .reel-card:focus-visible {
+      outline: 2px solid rgba(181, 154, 128, 0.72);
+      outline-offset: 4px;
+    }
+
+    .testimonials-section {
+      background: var(--paper);
+    }
+
+    .testimonials-head {
+      max-width: 560px;
+    }
+
+    .testimonials-head .lead {
+      margin-top: 36px;
+    }
+
+    .testimonial-carousel {
+      display: flex;
+      gap: 14px;
+      width: 100%;
+      margin-top: 40px;
+      padding: 0 0 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 0;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(59, 48, 40, 0.24) transparent;
+    }
+
+    .testimonial-card {
+      flex: 0 0 min(82vw, 320px);
+      min-height: 330px;
+      padding: 28px 24px 26px;
+      scroll-snap-align: start;
+      border: 1px solid rgba(59, 48, 40, 0.1);
+      background: rgba(255, 253, 249, 0.72);
+      box-shadow: 0 18px 42px rgba(42, 37, 33, 0.05);
+    }
+
+    .testimonial-stage {
+      margin: 0;
+    }
+
+    .testimonial-stage + .testimonial-stage {
+      margin-top: 20px;
+    }
+
+    .testimonial-label {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: rgba(59, 48, 40, 0.58);
+    }
+
+    .testimonial-card p {
+      margin: 0;
+      color: rgba(42, 37, 33, 0.78);
+      font-size: 0.92rem;
+      line-height: 1.95;
+      letter-spacing: 0.03em;
+    }
+
+    .testimonial-arrow {
+      display: block;
+      margin: 18px 0;
+      color: rgba(181, 154, 128, 0.84);
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    @media (min-width: 760px) {
+      .hero {
+        padding: 74px 0 86px;
+      }
+
+      .hero-layout {
+        grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.78fr);
+        gap: clamp(48px, 6vw, 88px);
+      }
+
+      .hero .workshop-image {
+        width: min(34vw, 420px);
+        min-width: 320px;
+        justify-self: end;
+      }
+
+      .hero .workshop-image::after,
+      .hero .photo-overlay {
+        display: none;
+      }
+
+      .hero .workshop-image img {
+        object-position: center;
+      }
+
+      .results-layout {
+        display: block;
+      }
+
+      .results-layout > .fade-up + .fade-up {
+        margin-top: 44px;
+      }
+
+      .stats-grid {
+        gap: 16px;
+        padding-bottom: 4px;
+      }
+
+      .stat {
+        flex: 1 0 176px;
+      }
+
+      .reel-carousel {
+        gap: 16px;
+        margin-top: 48px;
+        padding-bottom: 4px;
+      }
+
+      .reel-card {
+        flex: 0 0 min(18vw, 180px);
+      }
+
+      .testimonial-carousel {
+        gap: 16px;
+        margin-top: 48px;
+        padding-bottom: 4px;
+      }
+
+      .testimonial-card {
+        flex: 0 0 min(30vw, 316px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .button,
+      .fade-up {
+        transition: none;
+      }
+
+      .fade-up {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a class="brand" href="#top" aria-label="ページ上部へ">page.</a>
+      <div class="nav-links">
+        <a href="#problem">お悩み</a>
+        <a href="#service">講座内容</a>
+        <a href="#results">実績</a>
+        <a href="#profile">講師</a>
+        <a href="#contact">相談する</a>
+      </div>
+      <a class="nav-cta" href="#contact">相談する</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="ファーストビュー">
+      <div class="hero-layout">
+        <div class="hero-copy fade-up">
+          <p class="hero-kicker">地域事業者向けデジタル活用講師</p>
+          <h1>地域の未来を<br>つくる人へ。</h1>
+          <p class="hero-subtitle">AI・SNS・動画活用を<br>明日から実践できる形で。</p>
+          <p class="hero-lead lead">
+            地域事業者・商工会・自治体向けに、AI活用、SNS発信、ショート動画活用を実践しやすい形でお伝えしています。
+          </p>
+          <div class="hero-actions" aria-label="主な行動">
+            <a class="button" href="mailto:inrin5g8y@gmail.com?subject=%E8%AC%9B%E5%BA%A7%E3%83%BB%E7%A0%94%E4%BF%AE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84&body=%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E6%89%80%E5%B1%9E%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E3%81%94%E7%9B%B8%E8%AB%87%E5%86%85%E5%AE%B9%EF%BC%9A%0A%0A%E9%96%8B%E5%82%AC%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E2%80%BB%E5%86%85%E5%AE%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E5%BE%8C%E3%80%81%E8%A9%B3%E7%B4%B0%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E7%94%A8%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%92%E3%81%8A%E9%80%81%E3%82%8A%E3%81%97%E3%81%BE%E3%81%99%E3%80%82">講座・研修を相談する</a>
+            <a class="button secondary" href="#results">実績を見る</a>
+          </div>
+          <div class="hero-tags" aria-label="対応テーマ">
+            <span class="tag">地域事業者</span>
+            <span class="tag">商工会</span>
+            <span class="tag">自治体</span>
+          </div>
+        </div>
+        <figure class="workshop-image hero-workshop fade-up">
+          <img src="images/photo-02.jpg" alt="講師と参加者がノートパソコンを囲みながら学ぶワークショップ風景">
+          <div class="photo-overlay">
+            <h2>AI・SNS・動画活用を<br>一緒に手を動かしながら学ぶ</h2>
+            <p>初めての方でも実践しやすい内容から始め、<br>その場で質問できる時間を大切にしています。</p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="workshop workshop-secondary" id="scene" aria-label="講座風景">
+      <div class="workshop-inner">
+        <figure class="workshop-image fade-up">
+          <img src="images/photo-01.jpg" alt="木のテーブルを囲み、講師が参加者へ説明しているワークショップ風景">
+          <div class="photo-overlay">
+            <h2>見るだけで終わらない。</h2>
+            <p>実際に触れながら、<br>自分の仕事に置き換えて学びます。</p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="section-inner results-layout">
+        <div class="fade-up">
+          <p class="section-label">実績</p>
+          <h2>これまでの活動</h2>
+          <p class="lead" style="margin-top: 48px;">
+            地域事業者向けの実践講座やワークショップを中心に、仕事につながる学びの場をつくっています。
+          </p>
+          <p class="note">実績は2026年6月時点</p>
+        </div>
+        <div class="fade-up">
+          <div class="stats-grid" aria-label="実績一覧">
+            <div class="stat"><strong>70万+</strong><span>SNS総再生</span></div>
+            <div class="stat"><strong>25名+</strong><span>累計参加者</span></div>
+            <div class="stat"><strong>6回+</strong><span>動画編集ワークショップ開催</span></div>
+            <div class="stat"><strong>4回+</strong><span>SNS活用講座開催</span></div>
+            <div class="stat"><strong>3件+</strong><span>研修・講師依頼</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reels-section" id="sns-activity">
+      <div class="section-inner">
+        <div class="reels-head fade-up">
+          <h2>SNS発信・動画活用の実例</h2>
+          <p class="lead">日々の発信活動の一部をご紹介します。</p>
+        </div>
+        <div class="reel-carousel fade-up" aria-label="SNS発信・動画活用の実例一覧">
+          <a class="reel-card" href="https://www.instagram.com/reel/DVawFfnCakE/?igsh=MXZhbnNnNng5ZDYyMw==" target="_blank" rel="noopener" data-title="リール実例 01" data-reel-url="https://www.instagram.com/reel/DVawFfnCakE/?igsh=MXZhbnNnNng5ZDYyMw==" aria-label="10.7万回再生のInstagramリールを開く">
+            <img src="/Users/iori/Desktop/lp-project/public/images/reel-01.png" alt="SNS発信・動画活用の実例 1">
+            <span class="reel-count">10.7万回再生</span>
+          </a>
+          <a class="reel-card" href="https://www.instagram.com/reel/DWBDPiuiau8/?igsh=MXI3c2ZodnVsbWVudQ==" target="_blank" rel="noopener" data-title="リール実例 02" data-reel-url="https://www.instagram.com/reel/DWBDPiuiau8/?igsh=MXI3c2ZodnVsbWVudQ==" aria-label="10.4万回再生のInstagramリールを開く">
+            <img src="/Users/iori/Desktop/lp-project/public/images/reel-02.png" alt="SNS発信・動画活用の実例 2">
+            <span class="reel-count">10.4万回再生</span>
+          </a>
+          <a class="reel-card" href="https://www.instagram.com/reel/DZUZVUAyV3j/?igsh=MTJoNTJzOW51NmZzbg==" target="_blank" rel="noopener" data-title="リール実例 03" data-reel-url="https://www.instagram.com/reel/DZUZVUAyV3j/?igsh=MTJoNTJzOW51NmZzbg==" aria-label="6.3万回再生のInstagramリールを開く">
+            <img src="/Users/iori/Desktop/lp-project/public/images/reel-03.png" alt="SNS発信・動画活用の実例 3">
+            <span class="reel-count">6.3万回再生</span>
+          </a>
+          <a class="reel-card" href="https://www.instagram.com/reel/DVQTT4kibxT/?igsh=NzV2ZGl0bTF4OHF0" target="_blank" rel="noopener" data-title="リール実例 04" data-reel-url="https://www.instagram.com/reel/DVQTT4kibxT/?igsh=NzV2ZGl0bTF4OHF0" aria-label="3.7万回再生のInstagramリールを開く">
+            <img src="/Users/iori/Desktop/lp-project/public/images/reel-04.png" alt="SNS発信・動画活用の実例 4">
+            <span class="reel-count">3.7万回再生</span>
+          </a>
+          <a class="reel-card" href="https://www.instagram.com/reel/DXG6NWIBsdG/?igsh=aGFsMTI0NXNuY3dj" target="_blank" rel="noopener" data-title="リール実例 05" data-reel-url="https://www.instagram.com/reel/DXG6NWIBsdG/?igsh=aGFsMTI0NXNuY3dj" aria-label="3.6万回再生のInstagramリールを開く">
+            <img src="/Users/iori/Desktop/lp-project/public/images/reel-05.png" alt="SNS発信・動画活用の実例 5">
+            <span class="reel-count">3.6万回再生</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="student-voices">
+      <div class="section-inner">
+        <div class="testimonials-head fade-up">
+          <h2>受講者の声</h2>
+          <p class="lead">講座のあとに起きた変化</p>
+        </div>
+        <div class="testimonial-carousel fade-up" aria-label="受講者の声一覧">
+          <article class="testimonial-card">
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加前</span>
+              <p>動画編集に興味はあったけど、<br>何から始めればいいかわからなかった。</p>
+            </div>
+            <span class="testimonial-arrow">↓</span>
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加後</span>
+              <p>撮影や編集の手順が分かり、<br>まず何をすればいいか見えた。</p>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加前</span>
+              <p>動画の撮り方や編集方法が分からなかった。</p>
+            </div>
+            <span class="testimonial-arrow">↓</span>
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加後</span>
+              <p>実際に見ながら試せたので、<br>すぐ実践できるイメージが持てた。</p>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加前</span>
+              <p>分からないことが多く、<br>一人では進められなかった。</p>
+            </div>
+            <span class="testimonial-arrow">↓</span>
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加後</span>
+              <p>その場で質問できたので、<br>理解が深まり安心して取り組めた。</p>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加前</span>
+              <p>アプリの操作や用語が分からなかった。</p>
+            </div>
+            <span class="testimonial-arrow">↓</span>
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加後</span>
+              <p>一つひとつ丁寧に教えてもらえて、<br>不安なく進められた。</p>
+            </div>
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加前</span>
+              <p>投稿や動画制作に時間がかかっていた。</p>
+            </div>
+            <span class="testimonial-arrow">↓</span>
+            <div class="testimonial-stage">
+              <span class="testimonial-label">参加後</span>
+              <p>自分の仕事に置き換えながら学べて、<br>活用のイメージが持てた。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section problem" id="problem">
+      <div class="section-inner">
+        <div class="split-head fade-up">
+          <div>
+            <p class="section-label">お悩み</p>
+            <h2>こんなお悩みに寄り添います</h2>
+          </div>
+          <p class="lead">
+            専門用語から入るのではなく、参加者の今の状況に合わせて「まず何をすればいいか」が見える講座に整えます。
+          </p>
+        </div>
+        <ul class="problem-list fade-up" aria-label="よくある相談内容">
+          <li><span>01</span>AIが気になるけど何から始めればいいかわからない</li>
+          <li><span>02</span>SNS発信が続かない</li>
+          <li><span>03</span>動画発信を始めたいけど難しそう</li>
+          <li><span>04</span>地域のお店やサービスの魅力をもっと伝えたい</li>
+          <li><span>05</span>講座を開催したいが、参加者にわかりやすく教えられる講師を探している</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section concept" id="concept">
+      <div class="section-inner concept-layout">
+        <div class="fade-up">
+          <p class="section-label">考え方</p>
+          <h2>難しいデジタルを、実践できる形に翻訳します。</h2>
+        </div>
+        <div class="fade-up">
+          <p class="concept-statement">
+            わかるだけで終わらず、手を動かして使えるところまで。
+          </p>
+          <p class="lead" style="margin-top: 48px;">
+            AI、SNS、ショート動画。言葉だけ聞くと難しく感じるものも、実際に手を動かしながら学ぶことで、明日から使える力に変わります。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="service">
+      <div class="section-inner">
+        <div class="split-head fade-up">
+          <div>
+            <p class="section-label">講座内容</p>
+            <h2>目的に合わせて組み立てます</h2>
+          </div>
+          <p class="lead">
+            単発講座、実践型ワークショップ、研修、個別相談まで、参加者の習熟度と開催目的に合わせて内容を調整します。
+          </p>
+        </div>
+        <div class="service-list fade-up">
+          <article class="service-item">
+            <small>01</small>
+            <h3>AI活用講座</h3>
+            <p>仕事や発信に活かすための使い方を、実践しやすい手順でお伝えします。</p>
+          </article>
+          <article class="service-item">
+            <small>02</small>
+            <h3>SNS活用講座</h3>
+            <p>投稿テーマ、伝え方、続け方を整理し、地域のお店やサービスの魅力を届ける発信に整えます。</p>
+          </article>
+          <article class="service-item">
+            <small>03</small>
+            <h3>ショート動画活用講座</h3>
+            <p>スマホでの撮影、構成、編集の考え方を、初めての方にもわかる形で扱います。</p>
+          </article>
+          <article class="service-item">
+            <small>04</small>
+            <h3>実践ワークショップ</h3>
+            <p>参加者がその場で作る、試す、相談する時間を含めた実践型の講座です。</p>
+          </article>
+          <article class="service-item">
+            <small>05</small>
+            <h3>個別相談</h3>
+            <p>事業内容や発信状況に合わせて、次に取り組むことを一緒に整理します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile" id="profile">
+      <div class="section-inner profile-layout">
+        <figure class="profile-photo fade-up">
+          <img src="images/photo-05.jpg" alt="テーブルを囲む参加者の前で講師がスマートフォンを見せながら説明している様子">
+          <div class="photo-overlay">
+            <h2>伝える人</h2>
+            <p>地域の仕事に寄り添い、やさしい言葉で伝えています。</p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section gallery-section" aria-label="ワークショップ写真">
+      <div class="section-inner">
+        <div class="gallery fade-up">
+          <figure>
+            <img src="images/photo-03.jpg" alt="テーブルを囲んで参加者がスマートフォンを使いながら学ぶ講座風景">
+            <div class="photo-overlay">
+              <h2>場の空気</h2>
+              <p>手元、視線、会話の間。静かな学びの気配を、そのままに。</p>
+            </div>
+          </figure>
+          <figure>
+            <img src="images/photo-04.jpg" alt="参加者が講師の説明を聞きながらメモを取るワークショップ風景">
+            <div class="photo-overlay">
+              <h2>撮る、見る、話す</h2>
+              <p>スマホを手に、できることを一つずつ。</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" id="contact">
+      <div class="section-inner fade-up">
+        <p class="section-label">ご相談</p>
+        <h2>地域の未来をつくる学びを、一緒に。</h2>
+        <p class="lead">
+          地域事業者、商工会、自治体、地域イベント向けの講座・研修・ワークショップをご相談いただけます。
+        </p>
+        <a class="button" href="mailto:inrin5g8y@gmail.com?subject=%E8%AC%9B%E5%BA%A7%E3%83%BB%E7%A0%94%E4%BF%AE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84&body=%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E6%89%80%E5%B1%9E%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E3%81%94%E7%9B%B8%E8%AB%87%E5%86%85%E5%AE%B9%EF%BC%9A%0A%0A%E9%96%8B%E5%82%AC%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E2%80%BB%E5%86%85%E5%AE%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E5%BE%8C%E3%80%81%E8%A9%B3%E7%B4%B0%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E7%94%A8%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%92%E3%81%8A%E9%80%81%E3%82%8A%E3%81%97%E3%81%BE%E3%81%99%E3%80%82">講座・研修を相談する</a>
+        <div class="contact-panel">
+          <p>
+            検討段階でも大丈夫です。開催目的、対象者、希望テーマ、時期が決まっている範囲でお知らせください。
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-copy">
+        <span>page.</span>
+        <span>地域事業者向けデジタル活用講師</span>
+        <span>AI・SNS・ショート動画活用講座</span>
+        <div class="footer-links" aria-label="SNSリンク">
+          <a class="footer-icon-link" href="https://www.instagram.com/kirari_page.iori?igsh=MXU4b2Y3eHFuOWJ3MQ%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagramを開く">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2Zm0 2C5.7 4 4 5.7 4 7.8v8.4C4 18.3 5.7 20 7.8 20h8.4c2.1 0 3.8-1.7 3.8-3.8V7.8C20 5.7 18.3 4 16.2 4H7.8Zm4.2 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm0 2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Zm5.1-2.15a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1Z"></path>
+            </svg>
+          </a>
+          <a class="footer-icon-link" href="https://www.threads.com/@kirari_page.iori?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener" aria-label="Threadsを開く">
+            <svg class="threads-icon" viewBox="-1.5 -1.5 27 27" aria-hidden="true" focusable="false">
+              <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.018 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.037.568c-1.1-3.95-3.9-5.987-8.303-6.015-2.91.022-5.11.936-6.54 2.718-1.329 1.656-2.016 4.068-2.044 7.164.028 3.096.715 5.508 2.044 7.164 1.43 1.782 3.63 2.696 6.54 2.718 2.623-.02 4.358-.63 5.803-2.045 1.638-1.606 1.603-3.49 1.058-4.654-.315-.674-.894-1.243-1.653-1.658-.192 1.393-.697 2.536-1.494 3.41-1.032 1.13-2.48 1.72-4.305 1.754-1.381.027-2.704-.31-3.727-.948-1.221-.76-1.912-1.874-1.948-3.138-.069-2.465 1.875-4.137 4.845-4.318.97-.06 1.876-.017 2.705.129-.111-.682-.34-1.214-.692-1.59-.478-.512-1.224-.773-2.218-.786h-.043c-.799 0-1.891.219-2.662 1.25L6.24 8.01c1.066-1.427 2.583-2.18 4.39-2.18h.06c2.972.037 4.742 1.82 4.927 4.91.12.05.238.103.354.159 1.423.686 2.494 1.739 3.015 2.964.72 1.69.779 4.403-1.532 6.67C15.615 22.335 13.368 23.977 12.186 24Zm1.04-11.642c-.492-.086-1.018-.128-1.574-.128-.242 0-.49.008-.742.024-1.82.111-2.861.955-2.817 2.283.042 1.27 1.588 2.115 3.46 2.08 1.234-.023 2.171-.39 2.785-1.091.53-.605.83-1.45.888-2.516Z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const targets = document.querySelectorAll(".fade-up");
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.16 });
+
+      targets.forEach((target) => observer.observe(target));
+    } else {
+      targets.forEach((target) => target.classList.add("is-visible"));
+    }
+  </script>
+</body>
+</html>
